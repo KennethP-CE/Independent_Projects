@@ -18,7 +18,7 @@ class kjpHash():
         bytes1 = combination.encode("utf-8")
         thisHash = hashlib.sha256(bytes1)
         return thisHash, combination
-
+'''
 hashCreator = kjpHash()
 miner = input("Who is the miner" + "\n"
               "> ")
@@ -32,3 +32,4 @@ hashCreator.set_transfers(transfers)
 thisHash, combination = hashCreator.calc_Hash()
 print(thisHash)
 print(combination)
+'''
